@@ -1045,64 +1045,19 @@ a{
     text-decoration: none;
 }
 
+.product-main .p-text{
+    padding: 5px 30px;
+    margin: 10px 10px 0 30px;
+    float: right;
+    background: var(--white);
+    color: var(--back-color);
+    border-radius: 5px;
+}
+
 .product{
     text-decoration: none;
     color: var(--white);
     
 }
 
-.shop-btn1{
-    position: absolute;
-    color: var(--white);
-    text-decoration: none;
-    padding: 5px 30px;
-    text-align: center;
-    white-space: nowrap;
-    float: right;
-    margin: 20px 20px 20px 950px;
-    background: var(--white);
-    color: var(--back-color);
-    border-radius: 5px;
-}
 
-@media only screen and (min-width:992px) and (max-width: 1200px){
-    .shop-btn1{
-    margin: 20px 20px 20px 770px;
-    
-}
-}
-@media only screen and (min-width:768px) and (max-width: 991px){
-    .shop-btn1{
-    margin: 20px 20px 20px 530px;
-    
-}
-    }
-    
-
-@media only screen and (min-width:575px) and (max-width: 767px){
-    .shop-btn1{
-    margin: 20px 20px 20px 350px;
-    
-}
-}
-
-
-
-@media only screen and (min-width:367px) and (max-width: 574px){
-    .shop-btn1{
-    margin: 20px 20px 20px 350px;
-    
-}
-}
-
-
-@media only screen and (max-width: 500px){
-    .shop-btn1{
-    margin: 20px 20px 20px 100px;
-    text-align: center;
-}
-}
-
-.shop-btn1:hover{
-    color: var(--back-color);
-}
