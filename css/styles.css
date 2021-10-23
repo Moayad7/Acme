@@ -1000,6 +1000,15 @@ a{
     color: var(--white);
 }
 
+@media only screen and (max-width:575px){
+    .hero-section-shop{
+    background-color: var(--back-color);
+    padding: 20px;
+    color: var(--white);
+        text-align: center;
+    }
+}
+
 
 @media only screen and (min-width:576px) and (max-width:991px){
     .space{
@@ -1009,7 +1018,7 @@ a{
 
 @media only screen and (max-width:575px){
     .space{
-        padding-top: 119px;
+        padding-top: 110px;
     }
 }
 
