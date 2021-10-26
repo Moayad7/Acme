@@ -1321,6 +1321,7 @@ a{
     height: 950px;
     background-size: 150%;
     background-position: 50% 50%;
+        
 }
 
 }
@@ -1367,7 +1368,7 @@ a{
     position: relative;
     background-color: var(--white);
     height: 360px;
-    margin: 20px;
+    margin: 10px;
     border-radius:5px;
     padding: 40px;
 }
@@ -1446,5 +1447,13 @@ a{
     border-radius: 8px;
     border: 0;
 }
+
+
+@media only screen and (max-width:991px){
+    .contact-form{
+        padding-top: 50px;
+    }
+}
+
 
 
